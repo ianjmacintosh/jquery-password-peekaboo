@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Password Peekaboo</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="../src/jquery.password-peekaboo.js"></script>
+    <style>
+        body {
+            background: #eed;
+        }
+
+        .peekaboo-toggler {
+            height: 13px;
+            width: 13px;
+            margin-left: -18px;
+            margin-top: 5px;
+            background-color: #696;
+
+            cursor: pointer;
+            display: block;
+            position: relative;
+            float: left;
+        }
+
+        .peekaboo {
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <p style="clear: both">
+        <input type="password" id="mufasa" class="peekaboo" value="mufasa" />
+    </p>
+    <p style="clear: both">
+        <input type="password" id="simba" class="peekaboo" value="simba" />
+    </p>
+    <script>
+    $(function() {
+        $(".peekaboo").passwordPeekaboo();
+    </script>
+</body>
+</html>

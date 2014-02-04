@@ -1,0 +1,19 @@
+{
+    "name": "password-peekaboo",
+    "title": "jQuery Password Peekaboo",
+    "description": "Temporarily expose the contents of a password field, as popularized by Microsoft in Windows 8",
+    "author": "Ian J. MacIntosh",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ianjmacintosh/jquery-password-peekaboo.git"
+    },
+    "homepage": "http://ianjmacintosh.github.io/jquery-password-peekaboo/",
+    "version": "0.1.0",
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-cli": "~0.1.13",
+        "grunt-contrib-jshint": "~0.8.0",
+        "grunt-contrib-concat": "~0.3.0",
+        "grunt-contrib-uglify": "~0.3.2"
+    }
+}
